@@ -7,7 +7,7 @@ import './App.scss'
 
 export default function App() {
     return (
-        <>
+        <div className="app">
             <BrowserRouter>
                 <Container>
                     <Switch>
@@ -18,7 +18,7 @@ export default function App() {
                     </Switch>
                 </Container>
             </BrowserRouter>
-        </>
+        </div>
     )
 }
 
