@@ -66,6 +66,7 @@ const useStyles = makeStyles((theme) => ({
   },
   imageZoom: {
     maxWidth: '30%',
+    width: '30%',
     maxHeight: 'none',
     pointerEvents: 'auto'
   },
