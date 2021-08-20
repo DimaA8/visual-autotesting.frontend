@@ -35,9 +35,11 @@ function TestInfoCategory({ data, selectReference, isTestMarked }) {
   const classes = useStyles();
 
   React.useEffect(() => {
-    const ref = reference
-    setReference(example)
-    setExample(ref)
+    // const ref = reference
+    // setReference(example)
+    // setExample(ref)
+    setExample(example)
+    setReference(reference)
   }, [data.toggled])
 
   React.useEffect(() => {

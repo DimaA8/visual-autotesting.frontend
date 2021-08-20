@@ -46,7 +46,6 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: '98%',
     maxHeight: '98%',
     width: '100%',
-    height: '100%',
     display: 'flex',
     justifyContent: 'center',
     cursor: 'zoom-out'
@@ -62,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
   image: {
     margin: '0 16px',
     display: 'inline-block',
-    maxWidth: '30%',
+    maxWidth: '250px',
     maxHeight: '98%'
   },
   imageZoom: {
